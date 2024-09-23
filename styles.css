@@ -277,3 +277,9 @@ section h2::after {
     display: block;
     clear: both;
 }
+
+@media only screen and (max-width: 768px) {
+    .timeline-item ul {
+        text-align: left;
+    }
+}
